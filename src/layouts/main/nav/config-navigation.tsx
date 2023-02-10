@@ -14,7 +14,32 @@ const navConfig = [
     path: '/',
   },
   {
-    title: 'Components',
+    title: 'TRADE',
+    icon: <Iconify icon="eva:home-fill" />,
+    path: PATH_PAGE.trade,
+  },
+  {
+    title: 'AGENCY',
+    icon: <Iconify icon="eva:home-fill" />,
+    path: PATH_PAGE.agency,
+  },
+  {
+    title: 'NFTS',
+    icon: <Iconify icon="eva:home-fill" />,
+    path: PATH_PAGE.nfts,
+  },
+  {
+    title: 'CHARTS',
+    icon: <Iconify icon="eva:home-fill" />,
+    path: PATH_PAGE.charts,
+  },
+  {
+    title: 'LEARN',
+    icon: <Iconify icon="eva:home-fill" />,
+    path: PATH_PAGE.learn,
+  },
+  {
+    title: 'DISCORD',
     icon: <Iconify icon="ic:round-grain" />,
     path: PATH_PAGE.components,
   },
