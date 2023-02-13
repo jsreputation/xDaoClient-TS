@@ -70,23 +70,14 @@ export default function HomePage() {
           bgcolor: 'background.default',
         }}
       >
-        <HomeMinimal />
-
-        <HomeHugePackElements />
-
-        <HomeForDesigner />
-
-        <HomeDarkMode />
-
-        <HomeColorPresets />
-
-        <HomeCleanInterfaces />
-
+        <HomeMinimal />`{/*<HomeHugePackElements />*/}
+        {/*<HomeForDesigner />*/}
+        {/*<HomeDarkMode />*/}
+        {/*<HomeColorPresets />*/}
+        {/*<HomeCleanInterfaces />*/}
         <HomePricingPlans />
-
         <HomeLookingFor />
-
-        <HomeAdvertisement />
+        {/*<HomeAdvertisement />*/}
       </Box>
     </>
   );

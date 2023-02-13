@@ -92,7 +92,7 @@ function NavSubList({ items, isDashboard, subheader, onClose }: NavSubListProps)
 
   return (
     <Stack spacing={2.5} gridColumn={isDashboard ? 'span 6' : 'span 2'} alignItems="flex-start">
-      <StyledSubheader disableSticky>{subheader}</StyledSubheader>
+      {/*<StyledSubheader disableSticky>{subheader}</StyledSubheader>*/}
 
       {items.map((item) =>
         isDashboard ? (
