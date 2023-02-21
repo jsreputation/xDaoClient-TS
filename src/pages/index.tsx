@@ -56,7 +56,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title> The starting point for your next project | Minimal UI</title>
+        <title> XFoundation TGR</title>
       </Head>
 
       {progress}
@@ -70,7 +70,8 @@ export default function HomePage() {
           bgcolor: 'background.default',
         }}
       >
-        <HomeMinimal />`{/*<HomeHugePackElements />*/}
+        <HomeMinimal />
+        {/*<HomeHugePackElements />*/}
         {/*<HomeForDesigner />*/}
         {/*<HomeDarkMode />*/}
         {/*<HomeColorPresets />*/}
