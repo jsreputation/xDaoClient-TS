@@ -14,7 +14,7 @@ import {
   HomeLookingFor,
   HomeForDesigner,
   HomeColorPresets,
-  HomePricingPlans,
+  XStatsOfHtzAndTvl,
   HomeAdvertisement,
   HomeCleanInterfaces,
   HomeHugePackElements,
@@ -76,7 +76,7 @@ export default function HomePage() {
         {/*<HomeDarkMode />*/}
         {/*<HomeColorPresets />*/}
         {/*<HomeCleanInterfaces />*/}
-        <HomePricingPlans />
+        <XStatsOfHtzAndTvl />
         <HomeLookingFor />
         {/*<HomeAdvertisement />*/}
       </Box>
