@@ -1,10 +1,11 @@
 import MainLayout from '../../layouts/main';
-import { Tab, Tabs } from '@mui/material';
+import { Divider, Tab } from '@mui/material';
 import { Block } from '../../sections/_examples/Block';
 import { useState } from 'react';
 import Iconify from '../../components/iconify';
 import { TabPanel, TabContext, TabList } from '@mui/lab';
 import SortingSelecting from '../../sections/_examples/mui/table/sorting-selecting';
+import { AccountGeneral } from '../../sections/@dashboard/user/account';
 
 const XAgency = () => {
   const [currentTab, setCurrentTab] = useState('one');
@@ -56,11 +57,19 @@ const XAgency = () => {
         </Block>
         <Block>
           <TabPanel value={'one'}>
-            <SortingSelecting />
+            <SortingSelecting variant={'jobs'} />
           </TabPanel>
-          <TabPanel value={'two'}>Item Two</TabPanel>
-          <TabPanel value={'three'}>Item Three</TabPanel>
-          <TabPanel value={'four'}>Item Four</TabPanel>
+          <TabPanel value={'two'}>
+            <SortingSelecting variant={'governance'} />
+          </TabPanel>
+          <TabPanel value={'three'}>
+            <iframe src="https://docs.tgr.finance/beginner-tutorials/how-to-verify-jobs-on-the-agency"></iframe>
+          </TabPanel>
+          <TabPanel value={'four'}>
+            <AccountGeneral />
+            <Divider sx={{ mb: 10, mt: 10 }} />
+            <SortingSelecting variant={'governance'} />
+          </TabPanel>
         </Block>
       </TabContext>
     </>
