@@ -16,13 +16,13 @@ const XAgency = () => {
     },
     {
       value: 'two',
-      icon: <Iconify icon="eva:person-done-fill" width={24} />,
-      label: 'Verification',
+      icon: <Iconify icon="eva:award-fill" width={24} />,
+      label: 'Governance',
     },
     {
       value: 'three',
-      icon: <Iconify icon="eva:award-fill" width={24} />,
-      label: 'Governance',
+      icon: <Iconify icon="eva:person-done-fill" width={24} />,
+      label: 'How To Verify',
     },
     {
       value: 'four',
